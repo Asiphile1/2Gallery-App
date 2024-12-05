@@ -1,4 +1,4 @@
-import * as ImageManipulator from 'expo-image-manipulator';
+import * as ImageManipulator from "expo-image-manipulator";
 
 const editImage = async (uri) => {
   const editedImage = await ImageManipulator.manipulateAsync(
